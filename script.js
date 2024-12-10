@@ -1,7 +1,7 @@
 // script.js
 
 // Your WeatherAPI Key (replace with your actual API key)
-const API_KEY = 'YOUR_API_KEY';
+const API_KEY = 'c880957db2f3405987875312240912';
 
 // Select DOM elements
 const cityInput = document.getElementById('city-input');
