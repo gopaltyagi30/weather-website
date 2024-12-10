@@ -15,7 +15,7 @@ const conditionIcon = document.getElementById('condition-icon');
 async function fetchWeather(city) {
   try {
     const response = await fetch(
-      `http://api.weatherapi.com/v1/current.json?key=c880957db2f3405987875312240912&q=${city}&aqi=no`
+      `https://api.weatherapi.com/v1/current.json?key=c880957db2f3405987875312240912&q=${city}&aqi=no`
     );
     if (!response.ok) throw new Error('City not found');
     const data = await response.json();
